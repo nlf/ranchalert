@@ -1,6 +1,6 @@
 {
   "name": "ranchalert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "an alert service for rancher",
   "main": "index.js",
   "scripts": {
