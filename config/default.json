@@ -1,0 +1,28 @@
+{
+  "host": "$RANCHER_HOST",
+  "accessKey": "$RANCHER_KEY",
+  "secretKey": "$RANCHER_SECRET",
+  "slack": {
+    "url": "$SLACK_HOOK",
+    "channel": "#alerts"
+  },
+  "resources": [
+    "service",
+    "container",
+    "host"
+  ],
+  "states": {
+    "service": [
+      "inactive",
+      "active"
+    ],
+    "container": [
+      "stopped",
+      "running"
+    ],
+    "host": [
+      "inactive",
+      "active"
+    ]
+  }
+}
